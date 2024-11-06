@@ -74,3 +74,14 @@ margin-right:auto;}
 }
 .center{text-align: center;}
 .center-red{text-align: center; color:red;}
+
+#transition:hover{color: lightskyblue;}
+
+#logo {
+  transition-property: height, width;
+  transition-duration: 2s;
+}
+#logo:hover {
+  height: 500px;
+  width: 500px;
+}
